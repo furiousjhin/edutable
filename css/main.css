@@ -92,3 +92,74 @@
 .graph-item:nth-child(n+4) .graph-content-sub{
     width: 100%;
 }
+
+
+.popup-wrap {
+    background-color: rbga(0,0,0,.3);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top:10%;
+    left:10%;
+    right:5%;
+    
+    padding:15px;
+    display: none;
+    font-family: "나스라OTF EBD";
+}
+
+.popup {
+    width:100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: aquamarine;
+    box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3);
+}
+
+.popup-head {
+    width: 100%;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-body {
+    width: 100%;
+    background-color: white;
+}
+
+.body-content {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.body-titlebox {
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.body-contentbox {
+    word-break: break-word;
+    overflow: auto;
+    min-height: 100px;
+    max-height: 1000px;
+    text-align: center;
+}
+
+.popup-foot {
+    width: 100%;
+    height: 50px;
+}
+
+.pop-btn {
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

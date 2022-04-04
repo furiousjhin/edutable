@@ -6,11 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script>
-        
 
-
-    </script>
+    <script src="js/jquery-1.12.4.min.js"></script>
 </head>
 <body>
     <div class="graph-container">
@@ -32,42 +29,70 @@
         <div class="graph-item">
             <div class="graph-content">도형과 공간</div>
             <div class="graph-content">
-                <div class="graph-content-sub">
+                <div class="graph-content-sub" id="study1_1">
                     모양 인지<br>
-                    20 문항
+                    20문항
                 </div>
                 <div class="graph-content-sub" style="background-color: transparent;"></div>
             </div>
             <div class="graph-content">
-                <div class="graph-content-sub">직소 퍼즐<br>20문항</div>                
+                <div class="graph-content-sub" id="study1_2">
+                    직소 퍼즐<br>
+                    20문항
+                </div>                
                 <div class="graph-content-sub" style="background-color: transparent;"></div>                
             </div>
             <div class="graph-content">
-                <div class="graph-content-sub">모양 맞추기<br>20문항</div>
-                <div class="graph-content-sub" style="height: calc(100%*8/20);">도형 나누기<br>8문항</div>
+                <div class="graph-content-sub" id="study1_3">
+                    모양 맞추기<br>
+                    20문항
+                </div>
+                <div class="graph-content-sub" id="study1_4" style="height: calc(100%*8/20);">
+                    도형 나누기<br>
+                    8문항</div>
             </div>
             <div class="graph-content" style="background-color: transparent;">
-                <div class="graph-content-sub">대칭 모양 그리기<br>20문항</div>
-                <div class="graph-content-sub">길 찾기<br>20문항</div>
+                <div class="graph-content-sub" id="study1_5">
+                    대칭 모양 그리기<br>
+                    20문항
+                </div>
+                <div class="graph-content-sub" id="study1_6">
+                    길 찾기<br>
+                    20문항</div>
             </div>
         </div>
 
         <div class="graph-item">
             <div class="graph-content" style="background-color: #97DBAE;">사고력</div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #C3E5AE;">색깔 분류<br>20문항</div>                
+                <div class="graph-content-sub" id="study_6" style="background-color: #C3E5AE;">
+                    색깔 분류<br>
+                    20문항
+                </div>                
                 <div class="graph-content-sub" style="background-color: transparent;"></div>    
             </div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #C3E5AE;">메모리 게임<br>20문항</div>
-                <div class="graph-content-sub" style="background-color: #C3E5AE;">모양 인식<br>20문항</div>
+                <div class="graph-content-sub" id="study_7" style="background-color: #C3E5AE;">
+                    메모리 게임<br>
+                    20문항
+                </div>
+                <div class="graph-content-sub" id="study_8" style="background-color: #C3E5AE;">
+                    모양 인식<br>
+                    20문항
+                </div>
             </div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #C3E5AE;">물체 추론<br>20문항</div>
+                <div class="graph-content-sub" id="study_9" style="background-color: #C3E5AE;">
+                    물체 추론<br>
+                    20문항
+                </div>
                 <div class="graph-content-sub" style="background-color: transparent;"></div>    
             </div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #C3E5AE;">다른 부분 찾기<br>20문항</div>
+                <div class="graph-content-sub" id="study_10" style="background-color: #C3E5AE;">
+                    다른 부분 찾기<br>
+                    20문항
+                </div>
                 <div class="graph-content-sub" style="background-color: transparent;"></div>    
             </div>
         </div>
@@ -75,20 +100,35 @@
         <div class="graph-item">
             <div class="graph-content" style="background-color: #4D77FF;">수와 연산</div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #56BBF1; height: calc(100%*9/20);">숫자 쓰기<br>9문항</div>                
+                <div class="graph-content-sub" style="background-color: #56BBF1; height: calc(100%*9/20);">
+                    숫자 쓰기<br>
+                    9문항
+                </div>                
                 <div class="graph-content-sub" style="background-color: transparent;"></div>    
             </div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #56BBF1; height: calc(100%*6/20);">수와 양<br>6문항</div>                
+                <div class="graph-content-sub" style="background-color: #56BBF1; height: calc(100%*6/20);">
+                    수와 양<br>
+                    6문항
+                </div>                
                 <div class="graph-content-sub" style="background-color: transparent;"></div>    
             </div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #56BBF1;">개수 비교<br>20문항</div>                
+                <div class="graph-content-sub" style="background-color: #56BBF1;">
+                    개수 비교<br>
+                    20문항
+                </div>                
                 <div class="graph-content-sub" style="background-color: transparent;"></div>    
             </div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #56BBF1;">수 크기 비교<br>20문항</div>
-                <div class="graph-content-sub" style="background-color: #56BBF1;">수 세기<br>20문항</div>
+                <div class="graph-content-sub" style="background-color: #56BBF1;">
+                    수 크기 비교<br>
+                    20문항
+                </div>
+                <div class="graph-content-sub" style="background-color: #56BBF1;">
+                    수 세기<br>
+                    20문항
+                </div>
             </div>
         </div>
 
@@ -96,11 +136,17 @@
             <div class="graph-content" style="background-color: #FD5D5D;">측정</div>
             <div class="graph-content"></div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #FF8080;">물체 크기<br>20문항</div>
+                <div class="graph-content-sub" style="background-color: #FF8080;">
+                    물체 크기<br>
+                    20문항
+                </div>
             </div>
             <div class="graph-content"></div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #FF8080;">무게 맞추기<br>20문항</div>                
+                <div class="graph-content-sub" style="background-color: #FF8080;">
+                    무게 맞추기<br>
+                    20문항
+                </div>                
             </div>
         </div>
         <div class="graph-item">
@@ -108,12 +154,72 @@
             <div class="graph-content" style="background-color: transparent;"></div>
             <div class="graph-content" style="background-color: transparent;"></div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #FFF9B6;">반복되는 규칙 찾기<br>20문항</div>                
+                <div class="graph-content-sub" style="background-color: #FFF9B6;">
+                    반복되는 규칙 찾기<br>
+                    20문항
+                </div>                
             </div>
             <div class="graph-content">
-                <div class="graph-content-sub" style="background-color: #FFF9B6; height: calc(100%*15/20);">순서 알기<br>15문항</div>                
+                <div class="graph-content-sub" style="background-color: #FFF9B6; height: calc(100%*15/20);">
+                    순서 알기<br>
+                    15문항
+                </div>                
             </div>
         </div>
     </div>
+
+    <div class="popup-container">
+        <div class="popup-wrap" id="popup"> <!--모달을 감쌀 박스-->
+            <div class="popup">
+                <div class="popup-head">
+                    <span class="head-title">학습영역 예시</span>
+                </div>
+
+                <div class="popup-body">
+                    <div class="body-content">
+                        <div class="body-titlebox">
+                            <h1>Confirm Modal</h1>
+                        </div>
+                        <div class="body-contentbox">
+                            <img src="" width="500">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="popup-foot">
+                    <span class="pop-btn close" id="close">닫기</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        $(function(){
+            var study_id_array = ["study1_1", "study1_2", "study1_3", "study1_4"];
+            var pic_array = ["img/타입1_수와양.jpg", "img/타입2_모양인지.jpg"];
+
+            $("#confirm").click(function(){
+                modalClose();
+                //컨펌 이벤트 처리
+            });
+            $(".graph-content-sub").click(function(){
+                var current_id = $(this).attr("id");
+                var current_index = study_id_array.indexOf(current_id);
+                var current_pic = pic_array[current_index];
+
+                $("#popup").css('display','flex').hide().fadeIn();
+                $(".body-titlebox").text($(this).text());
+                $(".body-contentbox").children('img').attr("src", current_pic);
+            });
+            $("#close").click(function(){
+                modalClose();
+            });
+            function modalClose(){
+            $("#popup").fadeOut();
+            }
+        });
+    </script>
+
 </body>
 </html>
