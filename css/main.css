@@ -1,8 +1,13 @@
+@font-face {
+    font-family: '나스라OTF EBD';
+    src: url('NanumSquareRoundOTFEB.otf');
+}
+
 .graph-container {
     height: 800px;
     display: flex;
     
-    font-family: '나눔스퀘어라운드OTF ExtraBold', '바른고딕';
+    font-family: '나스라OTF EBD', '바른고딕';
     font-size: 20px;
 
     box-sizing: border-box;
